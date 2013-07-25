@@ -1,3 +1,7 @@
+/* This is the basic code for the slider. If you want to add styling, feel free. The only truly important thing here is that '#tabSlider' has 'position:fixed' applied to it and the keyframe widths are the same as the width of '#tabSlider'. Currently it's set to 100px.
+
+It is currently aligned on the right side, if you want to align it on the left, just switch 'right' to 'left' in all the files (there are some things you'll need to modify in the .js file). */
+
 /* Tab Slider */
 #tabSlider {position:fixed;top:0;right:0;}
 .openTabOpen {animation: open 1.5s; -moz-animation: open 1.5s; -webkit-animation: open 1.5s; -o-animation: open 1.5s; }
