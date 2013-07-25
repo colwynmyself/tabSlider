@@ -1,3 +1,9 @@
+/* To change what shows up as the little tab to open and close the slider, just change what's inside the 'a' tag for 
+'innerHTML'.
+
+Currently the slider is aligned along the right side fo the page, so switch it to the left side just switch 'right' to
+'left' here and in the .css file. If you want to change the width (should match #tabSlider) just change the '-100px'.*/
+
 function openAll()
 {
   document.getElementById('tabSlider').style.right = '0';
