@@ -1,0 +1,45 @@
+/* Tab Slider */
+.openTabOpen {animation: open 1.5s; -moz-animation: open 1.5s; -webkit-animation: open 1.5s; -o-animation: open 1.5s; }
+.openTabClose {animation: close 1.5s; -moz-animation: close 1.5s; -webkit-animation: close 1.5s; -o-animation: close 1.5s; }
+
+/* Keyframes */
+@keyframes open 
+{
+from {right:-100px;}
+to {right:0px;}
+}
+@-moz-keyframes open 
+{
+from {right:-100px;}
+to {right:0px;}
+}
+@-webkit-keyframes open
+{
+from {right:-100px;}
+to {right:0px;}
+}
+@-o-keyframes open
+{
+from {right:-100px;}
+to {right:0px;}
+}
+@keyframes close
+{
+from {right:0px;}
+to {right:-100px;}
+}
+@-moz-keyframes close
+{
+from {right:0px;}
+to {right:-100px;}
+}
+@-webkit-keyframes close
+{
+from {right:0px;}
+to {right:-100px;}
+}
+@-o-keyframes close
+{
+from {right:0px;}
+to {right:-100px;}
+}
